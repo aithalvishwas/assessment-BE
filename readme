@@ -31,12 +31,4 @@ This project is built using **Spring Boot**. Follow the steps below to set up an
 
 ---
 
-## API Endpoints
 
-| Method | Endpoint | Description |
-|--------|---------|-------------|
-| GET | `/api/users` | Fetch all users |
-| GET | `/api/users/{id}` | Get a user by ID |
-| POST | `/api/load` | Load all user data |
-
----
