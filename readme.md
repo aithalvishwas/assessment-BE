@@ -40,4 +40,3 @@ This project is built using **Spring Boot**. Follow the steps below to set up an
 
 ---
 
-This should make your README clearer and more visually appealing.
