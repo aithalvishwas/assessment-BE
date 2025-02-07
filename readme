@@ -18,7 +18,6 @@ This project is built using **Spring Boot**. Follow the steps below to set up an
    ```
 2. **Open the project in your preferred IDE**.
 
-
 ---
 
 ## Spring Boot Features
@@ -33,10 +32,12 @@ This project is built using **Spring Boot**. Follow the steps below to set up an
 
 ## API Endpoints
 
-| Method | Endpoint | Description |
-|--------|---------|-------------|
-| GET | `/api/users` | Fetch all users |
-| GET | `/api/users/{id}` | Get a user by ID |
-| POST | `/api/load` | Load all user data |
+| Method | Endpoint           | Description        |
+|--------|--------------------|--------------------|
+| GET    | `/api/users`       | Fetch all users    |
+| GET    | `/api/users/{id}`  | Get a user by ID   |
+| POST   | `/api/load`        | Load all user data |
 
 ---
+
+This should make your README clearer and more visually appealing.
