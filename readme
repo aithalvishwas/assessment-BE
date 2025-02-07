@@ -11,21 +11,13 @@ This project is built using **Spring Boot**. Follow the steps below to set up an
 - **Maven**
 - **An IDE** (IntelliJ IDEA, Eclipse, or VS Code with Java support)
 
----
-
 ## Installation Steps
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/aithalvishwas/assessment-BE
    ```
 2. **Open the project in your preferred IDE**.
-3. **Build and run the application**:
-   ```sh
-   mvn spring-boot:run
-   ```
-4. **Verify the application**:
-   - The application should start on **http://localhost:8080**.
-   - Use **Postman** or a browser to test the available endpoints.
+
 
 ---
 
@@ -48,15 +40,3 @@ This project is built using **Spring Boot**. Follow the steps below to set up an
 | POST | `/api/load` | Load all user data |
 
 ---
-
-## Running Tests
-To run unit tests, execute the following command:
-```sh
-mvn test
-```
-
----
-
-## License
-This project is licensed under the MIT License.
-
