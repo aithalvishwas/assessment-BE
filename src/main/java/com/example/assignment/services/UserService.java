@@ -48,12 +48,22 @@ public class UserService {
     
     private UserEntity mapToUser(Map userData) {
         UserEntity user = new UserEntity();
-        user.setId(Long.valueOf(userData.get("id").toString()));
-        user.setFirstName((String) userData.get("firstName"));
-        user.setLastName((String) userData.get("lastName"));
-        user.setEmail((String) userData.get("email"));
-        user.setSsn((String) userData.get("ssn"));
-        return user;
+        try {
+        	user.setId(Long.valueOf(userData.get("id").toString()));
+        	user.setFirstName((String) userData.get("firstName"));
+        	user.setLastName((String) userData.get("lastName"));
+        	user.setEmail((String) userData.get("email"));
+        	user.setSsn((String) userData.get("ssn"));
+        	user.setBirthDate((String) userData.get("birthDate"));
+        	user.setUrl((String) userData.get("image"));
+        	user.setWeight(((Number) userData.get("weight")).doubleValue());
+            user.setHeight(((Number) userData.get("height")).doubleValue());
+            user.setGender((String) userData.get("gender"));
+        	return user;
+        	
+        }catch (Exception e) {
+			throw e;
+		}
     }
     
     @Cacheable(value = "users", key = "#id")
