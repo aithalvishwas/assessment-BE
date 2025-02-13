@@ -1,4 +1,4 @@
-# Publicis Sapient Project Assessment
+#  Project Assessment
 
 ## Java Spring Boot Setup
 
